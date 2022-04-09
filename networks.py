@@ -1,5 +1,8 @@
 import tensorflow as tf
+import numpy as np
 
+def log2(x):
+    return int(np.log2(x))
 
 ## Pixel normalization layer
 class PixelNorm(tf.keras.layers.Layer):
