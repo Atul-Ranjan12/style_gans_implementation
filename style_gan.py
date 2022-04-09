@@ -1,9 +1,8 @@
-from networks import Mapping, wasserstein_loss
+from networks import Mapping, wasserstein_loss, log2
 from Discriminator import Discriminator
 from Generator import Generator
 import tensorflow as tf
 from tensorflow import keras
-from numpy import log2
 import numpy as np
 
 
